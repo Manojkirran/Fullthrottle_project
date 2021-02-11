@@ -5,19 +5,19 @@
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install django , djangorestframework,faker(used to create DUMMY Data).
 
-'''bash
+```bash
 pip install django
 pip install djangorestframework
 pip install Faker
-'''
+```
 ## Usage
-
+``` python
 import requests
 import json
 response = requests.get("http://manojkirran.pythonanywhere.com/members")
-
 text = json.dumps(response.json(), sort_keys=False, indent=4)
 print(text)
+```
 
 ## Contributing
 get requests are welcome.
