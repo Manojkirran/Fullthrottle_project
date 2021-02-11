@@ -22,7 +22,8 @@ print(text)
 ## Contributing
 get requests are welcome.
 
-##Instruction
+
+Instructions
 •	You can create a N number of dummy data using PopulateDummydata.py
 •	And this design and implemented in Django and restframework
 •	I have hosted my application in pythonanywhere 
